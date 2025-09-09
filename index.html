@@ -14,21 +14,15 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    #bg-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      z-index: -1;
-      transition: opacity 1s ease;
-    }
-
-    #bg-video.fade-out {
-      opacity: 0;
-      pointer-events: none;
-    }
+    #bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
 
     .ui-overlay {
       position: fixed;
@@ -189,10 +183,8 @@
 </head>
 <body>
 
-  <!-- Background Construction Video -->
-  <video id="bg-video" autoplay muted loop playsinline>
-    <source src="video/V7_best_8598739-uhd_3840_2160_30fps.mp4" type="video/mp4" />
-  </video>
+  <!-- Background Image -->
+  <img id="bg-image" src="images/WebPortal Skybox4k.jpg" alt="Background" />
 
   <!-- Intro Title Overlay -->
   <div id="intro-title" class="title-overlay">
