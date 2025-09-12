@@ -146,39 +146,40 @@
     }
 
     @media (max-width: 768px) {
-      .scene-button {
-        font-size: 16px;
-        width: auto;
-      }
+  #bg-video {
+    height: auto;
+    min-height: 100vh;
+  }
 
-      .ar-launch-button {
-        font-size: 18px;
-        padding: 16px 24px;
-        top: 80px;
-      }
+  .ui-overlay {
+    bottom: 20px;
+    gap: 8px;
+    transform: translateX(-50%) translateY(0); /* optional tweak if buttons are centered */
+  }
 
-      .title-overlay {
-        font-size: 28px;
-        padding: 0 16px;
-        text-align: center;
-      }
-    }
+  .scene-button {
+    width: 85%;
+    font-size: 12px;
+  }
 
-    @media (max-width: 480px) {
-      .scene-button {
-        font-size: 14px;
-      }
+  .logo-image {
+    max-width: 200px;
+    padding: 8px;
+  }
 
-      .ar-launch-button {
-        font-size: 16px;
-        padding: 14px 20px;
-        top: 60px;
-      }
+  .ar-launch-button {
+    font-size: 18px;
+    padding: 16px 24px;
+    top: 80px;
+  }
 
-      .title-overlay {
-        font-size: 22px;
-      }
-    }
+  .title-overlay {
+    font-size: 16px;
+    padding: 0 16px;
+    text-align: center;
+  }
+}
+  
   </style>
 </head>
 <body>
