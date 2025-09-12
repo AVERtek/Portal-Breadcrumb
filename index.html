@@ -24,6 +24,23 @@
   z-index: -1;
 }
 
+    .logo-image {
+      max-width: 300px;
+      display: block;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+   .logo-image {
+      padding: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+  .logo-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    }
+    
     .ui-overlay {
   position: fixed;
   top: 50%;
@@ -200,7 +217,7 @@
   <!-- Logo Title Header -->
   <div id="headerContainer" class="container">
     <div class="card">
-      <img class="marginauto" src="images/P11 Logo_w_trans.png" alt="Logo" style="max-width: 350px; display: block; margin: 0 auto;" />
+      <img class="logo-image" src="images/P11 Logo_w_trans.png" alt="Logo" />
       <h1 style="text-align: center;"><b style="color:white;"><p style="font-family:Segoe UI">INSIDE INFORMATION</p></b></h1>
     </div>
   </div>
