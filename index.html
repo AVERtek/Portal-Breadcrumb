@@ -43,19 +43,29 @@
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
     }
+
+    .headline {
+    font-family: 'Area', sans-serif;
+    font-size: 3rem; /* Try 4rem or larger for dramatic impact */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px;
+    }
     
-    .ui-overlay {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-}
+  .ui-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
 
     .scene-button {
       background: rgba(250,70,22,1);
@@ -221,7 +231,7 @@
   <div id="headerContainer" class="container">
     <div class="card">
       <img class="logo-image" src="images/P11 Logo_w_trans.png" alt="Logo" />
-      <h1 style="text-align: center;"><b style="color:white;"><p style="font-family:Area">INSIDE INFORMATION</p></b></h1>
+      <h1 class="headline">INSIDE INFORMATION!</h1>
     </div>
   </div>
 
